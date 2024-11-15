@@ -1,0 +1,257 @@
+body{
+    font-family: 'Poppins' !important;
+}
+/*start Nav */
+.our_brand_nav_bar{
+    font-size: 30px !important; 
+    color: white !important;
+    font-weight: bold !important;
+    font-style: italic !important;
+}
+
+.nav-colored { 
+    background-color:#2E2E2E !important;
+}
+.nav-transparent { 
+    background-color:transparent;
+}
+
+/*End Nav*/
+
+
+/* scroll bar*/
+::-webkit-scrollbar {
+	width: 13px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #8F06F0; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8F06F0; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8F06F0; 
+  }
+/*end scroll bar*/
+
+
+@media (max-width: 576px) {
+    .our_main_img{
+        height: 300px !important;
+    }
+}
+@media (min-width: 576px) {
+    .our_main_img{
+       width: 120% !important;
+    }
+}
+
+
+
+
+/*Start About section*/
+.about{
+    margin: 60px;
+}
+
+.heading_about{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: #8F06F0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.greetings{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #8F06F0;
+    font-weight: bold;
+
+}
+.about_us_info{
+    line-height: 2.5;
+    font-size: 19px;
+}
+
+
+    
+
+/*End About section*/
+
+
+/* Start Menu Scetion */
+.menus{
+    margin-top: 40px;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.menus_txt{
+    border: 5px solid white;
+    margin: 60px;
+    
+}
+.heading_menus{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.our_line_under_menu_title{
+    border: none;
+    border-top: 8px double #ffffff; 
+    margin: 20px 0;
+   
+}
+
+
+.menu_text{
+    margin-bottom: 20px;
+    text-align: center;
+    color: white; 
+}
+
+.everything_menus{
+    margin: 40px;
+}
+.menus_subtext{
+    color: white;
+    font-size: 12px !important;
+}
+.menus_line{
+    color: white;
+    border-top: 2px solid white;
+}
+
+.our_button{
+    border: 2px solid white;
+    background-color: transparent !important;
+    -webkit-transition: all 0.6s ease-in-out;
+    -webkit-box-shadow: 0px 0px 0 0 #8F06F0 inset , 0px 0px 0 0 #8F06F0 inset;
+}
+
+
+
+.our_button:hover{
+    -webkit-transform: scale(1.2);
+    background: #8F06F0;
+    -webkit-box-shadow: 350px 0px 0 0 #8F06F0 inset , -350px 0px 0 0 #8F06F0 inset;
+
+    
+}
+.our_name_button{
+    color: white;
+    
+}
+/* End Menu Scetion */
+
+
+/*Start Sepcails*/
+.specials{
+    margin: 30px;
+} 
+
+.special_heading{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.coming_soon_card{
+    border-radius: 5% !important; 
+    height: 500px;  
+}
+
+.coming_soon_card img{
+    border-radius: 5% !important; 
+    height: 500px;    
+}
+.second_specials{
+    margin-top: 30px !important;
+}
+/*End Specials*/
+
+
+/* Start Footer Section*/
+
+
+.footer_info
+{
+    background-color: rgb(46, 46, 46);
+    padding-bottom: 1.5rem ;
+    padding-top: 3rem;
+}
+.heading_store-hours
+{
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #8F06F0;
+}
+.heading_location
+{
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #8F06F0;
+}
+.context_location a
+{
+text-decoration: none;
+}
+.heading_contact-us
+{
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #8F06F0;
+}
+.context_contact-us a
+{
+    text-decoration: none;
+}
+.heading_follow-us
+{
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #8F06F0;
+}
+.context_follow-us a
+{
+    text-decoration: none;
+}
+.context_store-hours{
+    color: #FDD0F2;
+}
+.copyrights{
+    color: #FDD0F2;
+}
+.line_footer{
+    color: white;
+}
+.context_contact-us a{
+    color: #FDD0F2;
+}
+.context_location a{
+    color: #FDD0F2;
+}
+.context_follow-us a{
+    color: #FDD0F2;
+}
+.context_contact-us i{
+    color: #FDD0F2;
+}
+/* End of Footer Section */
